@@ -46,6 +46,7 @@ body {
 
 .PinnedList {
   display: flex;
+  fill: currentColor;
 }
 
 .PinnedListTitle {
@@ -84,6 +85,12 @@ body {
   height: 12px;
   border: var(--borderWidth-thin) solid var(--borderColor-translucent);
   border-radius: 50%;
+}
+
+.MargeLess {
+  margin-right: 4px;
+  align-self: center;
+  height: 16px;
 }
 
 .Marge {
